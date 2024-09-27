@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Student registration form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>REGISTRATION FORM</h2>
+        <form id="registrationForm"></form>
+            <div class="form-group">
+                <label for="Name">Name :</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="regNo">Register No :</label>
+                <input type="text" id="regNo" name="regNo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="department">Department :</label>
+                <input type="text" id="department" name="department" required>
+            </div>
+
+            <div class="form-group">
+                <label for="batch">Batch :</label>
+                <input type="text" id="batch" name="batch" required>
+            </div>
+
+            <div class="form-group">
+                <label for="emailid">Email Id :</label>
+                <input type="text" id="emailid" name="emailid" required>
+            </div>
+
+            <div class="button-group">
+                <button type="reset" class="btn reset-btn">Reset</button>
+                <button type="button" class="btn register-btn" onclick="submitForm()">Register</button>
+            </div>
+        </form>
+        <button class="back-btn">Back</button>
+    </div>
+
+    <script src="Student registration form.js"></script>
+</body>
+</html>
